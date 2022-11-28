@@ -8,6 +8,9 @@ import '@/styles/index.less'
 import Vant from 'vant'
 // 加载vant样式
 import 'vant/lib/index.css'
+// 动态加载设置REM基准值
+import 'amfe-flexible'
+
 // 注册使用vant组件库
 Vue.use(Vant)
 Vue.config.productionTip = false
