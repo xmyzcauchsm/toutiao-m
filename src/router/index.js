@@ -5,11 +5,16 @@ Vue.use(VueRouter)
 
 // 路由表
 const routes = [
-
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import('@/views/login')
+  }
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  mode: 'history'
 })
 
 export default router
